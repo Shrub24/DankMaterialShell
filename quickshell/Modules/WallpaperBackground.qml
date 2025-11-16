@@ -20,7 +20,8 @@ Variants {
         required property var modelData
 
         screen: modelData
-
+        
+        WlrLayershell.namespace: "dms:wallpaper"
         WlrLayershell.layer: WlrLayer.Background
         WlrLayershell.exclusionMode: ExclusionMode.Ignore
 
